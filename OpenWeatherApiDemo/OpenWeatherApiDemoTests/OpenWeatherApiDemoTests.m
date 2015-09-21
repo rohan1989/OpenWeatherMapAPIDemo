@@ -1,19 +1,19 @@
 //
-//  OpenWeatherApiDemoTests.m
-//  OpenWeatherApiDemoTests
+//  OpenWeatherAPIDemoTests.m
+//  OpenWeatherAPIDemoTests
 //
-//  Created by Rohan Sonawane on 20/09/15.
+//  Created by Rohan Sonawane on 21/09/15.
 //  Copyright (c) 2015 Rohan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface OpenWeatherApiDemoTests : XCTestCase
+@interface OpenWeatherAPIDemoTests : XCTestCase
 
 @end
 
-@implementation OpenWeatherApiDemoTests
+@implementation OpenWeatherAPIDemoTests
 
 - (void)setUp {
     [super setUp];

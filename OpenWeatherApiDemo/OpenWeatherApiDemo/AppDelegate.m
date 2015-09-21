@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  OpenWeatherApiDemo
+//  OpenWeatherAPIDemo
 //
-//  Created by Rohan Sonawane on 20/09/15.
+//  Created by Rohan Sonawane on 21/09/15.
 //  Copyright (c) 2015 Rohan. All rights reserved.
 //
 
