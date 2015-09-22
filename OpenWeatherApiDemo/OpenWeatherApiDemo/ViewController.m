@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NetworkManager.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NetworkManager *_networkManager = [[NetworkManager alloc] init];
+    [_networkManager networkRequestWithURL:@"http://api.openweathermap.org/data/2.5/forecast/daily?q=Pune&mode=json&units=metric&cnt=1" WithCompletion:^(id response, NSError *error) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

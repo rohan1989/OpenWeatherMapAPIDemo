@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2B55061BB1E74A00653EF2 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B55051BB1E74A00653EF2 /* Weather.m */; };
+		1C2B55091BB1E77A00653EF2 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B55081BB1E77A00653EF2 /* City.m */; };
+		1C2B550C1BB1EA3300653EF2 /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B550B1BB1EA3300653EF2 /* Forecast.m */; };
+		1C2B550F1BB1EA5200653EF2 /* Temperature.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B550E1BB1EA5200653EF2 /* Temperature.m */; };
 		1C72BD701BB082AF00D2E92E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C72BD6F1BB082AF00D2E92E /* main.m */; };
 		1C72BD731BB082AF00D2E92E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C72BD721BB082AF00D2E92E /* AppDelegate.m */; };
 		1C72BD761BB082AF00D2E92E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C72BD751BB082AF00D2E92E /* ViewController.m */; };
@@ -15,6 +19,8 @@
 		1C72BD7E1BB082AF00D2E92E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C72BD7C1BB082AF00D2E92E /* LaunchScreen.xib */; };
 		1C72BD8A1BB082AF00D2E92E /* OpenWeatherAPIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C72BD891BB082AF00D2E92E /* OpenWeatherAPIDemoTests.m */; };
 		1C72BD951BB0860800D2E92E /* ForeCastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C72BD941BB0860800D2E92E /* ForeCastViewController.m */; };
+		1C72BD991BB08AAC00D2E92E /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C72BD981BB08AAC00D2E92E /* NetworkManager.m */; };
+		1C72BD9D1BB08B0700D2E92E /* OWMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C72BD9C1BB08B0700D2E92E /* OWMParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C2B55041BB1E74A00653EF2 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weather.h; path = WeatherClasses/Weather.h; sourceTree = "<group>"; };
+		1C2B55051BB1E74A00653EF2 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weather.m; path = WeatherClasses/Weather.m; sourceTree = "<group>"; };
+		1C2B55071BB1E77A00653EF2 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = City.h; path = WeatherClasses/City.h; sourceTree = "<group>"; };
+		1C2B55081BB1E77A00653EF2 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = City.m; path = WeatherClasses/City.m; sourceTree = "<group>"; };
+		1C2B550A1BB1EA3300653EF2 /* Forecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Forecast.h; path = WeatherClasses/Forecast.h; sourceTree = "<group>"; };
+		1C2B550B1BB1EA3300653EF2 /* Forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Forecast.m; path = WeatherClasses/Forecast.m; sourceTree = "<group>"; };
+		1C2B550D1BB1EA5200653EF2 /* Temperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Temperature.h; path = WeatherClasses/Temperature.h; sourceTree = "<group>"; };
+		1C2B550E1BB1EA5200653EF2 /* Temperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Temperature.m; path = WeatherClasses/Temperature.m; sourceTree = "<group>"; };
 		1C72BD6A1BB082AF00D2E92E /* OpenWeatherAPIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWeatherAPIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C72BD6E1BB082AF00D2E92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C72BD6F1BB082AF00D2E92E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +57,10 @@
 		1C72BD891BB082AF00D2E92E /* OpenWeatherAPIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenWeatherAPIDemoTests.m; sourceTree = "<group>"; };
 		1C72BD931BB0860800D2E92E /* ForeCastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForeCastViewController.h; sourceTree = "<group>"; };
 		1C72BD941BB0860800D2E92E /* ForeCastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForeCastViewController.m; sourceTree = "<group>"; };
+		1C72BD971BB08AAC00D2E92E /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = NetworkManager/NetworkManager.h; sourceTree = "<group>"; };
+		1C72BD981BB08AAC00D2E92E /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkManager.m; path = NetworkManager/NetworkManager.m; sourceTree = "<group>"; };
+		1C72BD9B1BB08B0700D2E92E /* OWMParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OWMParser.h; path = OWMParser/OWMParser.h; sourceTree = "<group>"; };
+		1C72BD9C1BB08B0700D2E92E /* OWMParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OWMParser.m; path = OWMParser/OWMParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C2B55031BB1E71D00653EF2 /* WeatherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1C2B55041BB1E74A00653EF2 /* Weather.h */,
+				1C2B55051BB1E74A00653EF2 /* Weather.m */,
+				1C2B55071BB1E77A00653EF2 /* City.h */,
+				1C2B55081BB1E77A00653EF2 /* City.m */,
+				1C2B550A1BB1EA3300653EF2 /* Forecast.h */,
+				1C2B550B1BB1EA3300653EF2 /* Forecast.m */,
+				1C2B550D1BB1EA5200653EF2 /* Temperature.h */,
+				1C2B550E1BB1EA5200653EF2 /* Temperature.m */,
+			);
+			name = WeatherClasses;
+			sourceTree = "<group>";
+		};
 		1C72BD611BB082AF00D2E92E = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +124,9 @@
 				1C72BD931BB0860800D2E92E /* ForeCastViewController.h */,
 				1C72BD941BB0860800D2E92E /* ForeCastViewController.m */,
 				1C72BD771BB082AF00D2E92E /* Main.storyboard */,
+				1C2B55031BB1E71D00653EF2 /* WeatherClasses */,
+				1C72BD961BB08A8D00D2E92E /* NetworkManager */,
+				1C72BD9A1BB08AEB00D2E92E /* OWMParser */,
 				1C72BD7A1BB082AF00D2E92E /* Images.xcassets */,
 				1C72BD7C1BB082AF00D2E92E /* LaunchScreen.xib */,
 				1C72BD6D1BB082AF00D2E92E /* Supporting Files */,
@@ -122,6 +158,24 @@
 				1C72BD881BB082AF00D2E92E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C72BD961BB08A8D00D2E92E /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				1C72BD971BB08AAC00D2E92E /* NetworkManager.h */,
+				1C72BD981BB08AAC00D2E92E /* NetworkManager.m */,
+			);
+			name = NetworkManager;
+			sourceTree = "<group>";
+		};
+		1C72BD9A1BB08AEB00D2E92E /* OWMParser */ = {
+			isa = PBXGroup;
+			children = (
+				1C72BD9B1BB08B0700D2E92E /* OWMParser.h */,
+				1C72BD9C1BB08B0700D2E92E /* OWMParser.m */,
+			);
+			name = OWMParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,9 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2B550F1BB1EA5200653EF2 /* Temperature.m in Sources */,
 				1C72BD761BB082AF00D2E92E /* ViewController.m in Sources */,
 				1C72BD951BB0860800D2E92E /* ForeCastViewController.m in Sources */,
+				1C2B55091BB1E77A00653EF2 /* City.m in Sources */,
+				1C2B55061BB1E74A00653EF2 /* Weather.m in Sources */,
+				1C72BD9D1BB08B0700D2E92E /* OWMParser.m in Sources */,
 				1C72BD731BB082AF00D2E92E /* AppDelegate.m in Sources */,
+				1C2B550C1BB1EA3300653EF2 /* Forecast.m in Sources */,
+				1C72BD991BB08AAC00D2E92E /* NetworkManager.m in Sources */,
 				1C72BD701BB082AF00D2E92E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +482,7 @@
 				1C72BD8F1BB082AF00D2E92E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C72BD901BB082AF00D2E92E /* Build configuration list for PBXNativeTarget "OpenWeatherAPIDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +491,7 @@
 				1C72BD921BB082AF00D2E92E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
